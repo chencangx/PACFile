@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-var D="DIRECT;", P = "HTTPS www.nonfang.top:2222;";
+var D="DIRECT;", P = "HTTPS *:2222;";
     var H = {
         "googleapis.com":1,
         "googlecode.com":1,
